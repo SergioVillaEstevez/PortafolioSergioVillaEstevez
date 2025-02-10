@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(31, 31, 31);
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    
+}
+
+
+.nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    
+    color:rgb(249, 145, 55);
+    
+
+
+
+}
+.profesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    
+    color:rgb(255, 192, 44);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center	;
+    font-size: 30px;
+    flex-wrap: wrap;
+   
+    
+    
+}
+li{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-color: rgb(126, 124, 117);
+    font-family: cursive;
+    
+   color:rgb(249, 145, 55);
+    
+    
+}
+
+a{
+ font-style: italic;
+ text-decoration: none; /* Quita el subrayado */
+ color:rgb(249, 145, 55); /* Color del texto */
+ font-weight: bold;
+
+}
+a:hover{
+    color: rgb(255, 192, 44);
+}
+
+#contenido{
+    color: white;
+    font-family: cursive;
+    justify-content: center;
+align-items: center;
+
+
+
+}
+h1{
+    color: rgb(255, 192, 44);
+}
+
+#contenido h1{
+color: rgb(255, 192, 44);
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+#contenido p{
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+
+    justify-content: center;
+
+}
+#foto {
+    display: block;
+    width: 310px;  /* Ajusta el tamaño (opcional) */
+    height: 330px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 4px solid rgb(249, 145, 55);
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(255, 192, 44, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+
+ #foto:hover {
+    transform: scale(1.1);
+}
+
+        
