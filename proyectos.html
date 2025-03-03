@@ -12,6 +12,12 @@
         justify-content: center;
         align-items: center;
        }
+       span{
+        color: aliceblue;
+       }
+    b{
+        color: greenyellow;
+    }
 
  .imagenes-Iko{ 
          /* Para centrar con margin auto */
@@ -38,16 +44,18 @@
     
     </style>
 
-<h3>📚 NeiverHub</h3>
+    <section id="proyectos">
+        <h1>Proyectos destacados</h1>
+<h3>📚<b> NeiverHub</b></h3>
 <p>🌎 Descripción:
     NeiverHub es una aplicación donde los usuarios pueden descubrir videojuegos, guardarlos en su lista de favoritos y participar en un foro para debatir sobre ellos. La app integra una API de juegos y permite la autenticación con Firebase.</p>
 
     <h4>🛠 Tecnologías utilizadas:</h4>
     <ul>
 
-        <li>✔️ Frontend: Kotlin (Android Studio)</li>
-        <li>✔️ Backend: Firebase </li>
-        <li>✔️ Arquitectura: MVVM</li>
+        <li>✔️ Frontend:<span> Kotlin (Android Studio)</span></li>
+        <li>✔️ Backend: <span>Firebase</span> </li>
+        <li>✔️ Arquitectura:<span>MVVM</span></li>
     </ul>
     <h4>✅ Características destacadas:</h4>
     <ul>
@@ -65,9 +73,37 @@
         <img class="imagenes-neiverhub"src="..\imagenes\imgNeiverHub\perfil.png" alt="Perfil">
        
         </div>
-<h1>Proyectos destacados</h1>
 
-<h3>🕹️ Iko Adventure (Desarrollo en curso)</h3>
+        <!-- aqui añandir sobre microservicios -->
+        <h3><b>📚 APIs/Microservicios</b></h3>
+        <p>🌎 Descripción:  
+            Proyecto de arquitectura de microservicios diseñado para gestionar usuarios, autenticación y procesamiento de datos en tiempo real. Utiliza Spring Boot para la lógica de negocio y Feign para la comunicación eficiente entre servicios.</p>
+        
+        <h4>🛠 Tecnologías utilizadas:</h4>
+        <ul>
+            <li>✔️ Backend: <span> (Spring Boot, Spring Cloud)</span></li>
+            <li>✔️ Comunicación: <span> Feign Clients, Kafka</span></li>
+            <li>✔️ Base de datos:<span> PostgreSQL</span></li>
+            <li>✔️ Contenedores: <span>Docker</span></li>
+            <li>✔️ Seguridad:<span> JWT, OAuth2</span></li>
+            <li>✔️ Arquitectura:<span> Microservicios</span> </li>
+        </ul>
+        
+        <h4>✅ Características destacadas:</h4>
+        <ul>
+            <li>✔️ APIs RESTful escalables con seguridad avanzada</li>
+            <li>✔️ Comunicación entre microservicios con Feign y Kafka</li>
+            <li>✔️ Base de datos  (relacional)</li>
+            <li>✔️ Contenerización con Docker</li>
+            <li>✔️ Registro y descubrimiento de servicios con Eureka</li>
+        </ul>
+        
+        <p>🚀 Estado: Proyecto en desarrollo</p>
+
+
+
+
+<h3>🕹️<b> Iko Adventure (Desarrollo en curso)</b></h3>
 
 <p>🎮 Descripción:
     Iko Adventure es un videojuego 2D donde los jugadores exploran un mundo lleno de desafíos, plataformas y enemigos. Actualmente estoy desarrollando la mecánica del juego, la interacción con el entorno y los elementos visuales.</p>
@@ -88,4 +124,4 @@
     <img  class="imagenes-Iko"src="..\imagenes\Captura de pantalla 2025-02-10 225032.png" alt="Iko, protagonista">
     </div>
 
-
+</section>
